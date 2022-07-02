@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap_show",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanarix/Bootstrap_show.git"
+  },
+  "author": "Sanarix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sanarix/Bootstrap_show/issues"
+  },
+  "homepage": "https://github.com/Sanarix/Bootstrap_show#readme"
+}
