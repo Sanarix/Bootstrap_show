@@ -2,9 +2,10 @@ const path = require('path')
 const {CleanWebpackPlugin} = require('clean-webpack-plugin')
 const HTMLWebpackPlugin = require('html-webpack-plugin')
 const copyPlugin = require('copy-webpack-plugin')
+const bootstrap = require('bootstrap')
 
 module.exports = {
-  entry: './develop/js/index.js',
+  entry: './src/js/index.js',
   output: {
     path: path.resolve(__dirname, 'public'),
 		filename: 'main.js',
@@ -18,12 +19,15 @@ module.exports = {
   devtool: 'source-map',
   plugins: [
     new HTMLWebpackPlugin({
-      template: './develop/index.html'
+      template: './src/index.html'
     }),
     new CleanWebpackPlugin(),
+    new bootstrap({
+      template: './src/index.html'
+    }),
     new copyPlugin({
       patterns: [
-        {from: './develop/img', to: 'img'}
+        {from: './src/img', to: 'img'}
       ]
     })
   ],
