@@ -6,21 +6,33 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>UX Portfolio website</title>
 </head>
-<body>
-	<header class="container">
-		<div class="row">
-			<div class="col">S.</div>
-			<div class="col d-none d-lg-block">Blog</div>
-			<div class="col">Download CV</div>
-			<div class="col d-none d-lg-block">What's new?</div>
-			<div class="col">Menu</div>	
+<header class="container-fluid top-header">
+	<nav class="row menu">
+		<div class="col-4 link"><a href="#" class="link-text">S.</a></div>
+		<div class="col-1 link d-none d-lg-block"><a href="#" class="link-text">Blog</a></div>
+		<div class="col-3 col-sm-2 link"><a href="#" class="link-text">Download CV</a></div>
+		<div class="col-1 link d-none d-lg-block"><a href="#" class="link-text">What's new?</a></div>
+		<div class="col-4 link">Menu<button class="menu-button"><img src="./img/Hamburger.svg"></button></div>	
+	</nav>
+	<div class="container post-header">
+		<div class="row post-header_container">
+			<div class="col-md-6 skills">
+				Your skill here
+			</div>
+			<div class="col-md-6 intro">I create inclusive, accessible digital products, with experience working with startups and enterprise products. I believe in using product design as a tool to elevate human interaction with technology that scale.</div>
 		</div>
-	</header>
-	<body>
-		
-	</body>
-	<footer>
-
-	</footer>
+		<div class="row tabs-container d-md-none d-flex">
+			<div class="col-4"><button class="tab-switch">Case Studies</button></div>
+		<div class="col-4"><button class="tab-switch">UI&Ixd</button></div>
+		<div class="col-4"><button class="tab-switch">3D models</button></div>
+		</div>
+	</div>
+</header>
+<body class="body">
 </body>
+<!-- <footer>
+		<div class="row">
+			Designed by KingSamuel
+		</div>
+</footer> -->
 </html>

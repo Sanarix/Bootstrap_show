@@ -2,7 +2,6 @@ const path = require('path')
 const {CleanWebpackPlugin} = require('clean-webpack-plugin')
 const HTMLWebpackPlugin = require('html-webpack-plugin')
 const copyPlugin = require('copy-webpack-plugin')
-const bootstrap = require('bootstrap')
 
 module.exports = {
   entry: './src/js/index.js',
@@ -22,9 +21,6 @@ module.exports = {
       template: './src/index.html'
     }),
     new CleanWebpackPlugin(),
-    new bootstrap({
-      template: './src/index.html'
-    }),
     new copyPlugin({
       patterns: [
         {from: './src/img', to: 'img'}

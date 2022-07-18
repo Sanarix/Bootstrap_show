@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+.top-header {
+  border-bottom: 1px solid black;
+  padding-top: 2vh;
+  margin-bottom: 155px;
+  height: 10vh;
+}
+.top-header .menu {
+  align-items: center;
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2vh;
+  line-height: 82.34%;
+  color: #383838;
+}
+.top-header .link-text {
+  color: inherit;
+  text-decoration: none;
+}
+.top-header .link-text:hover {
+  color: #831ed2;
+}
+.top-header .menu-button {
+  background-color: inherit;
+  border: none;
+  margin-left: 2vh;
+  cursor: poiner;
+}
+
+.post-header {
+  padding-top: 30vh;
+}
+.post-header .skills {
+  font-size: 8vh;
+}
+.post-header .intro {
+  min-width: 356px;
+  max-width: 486px;
+}
+.post-header .tabs-container .tab-switch {
+  background-color: inherit;
+  border: none;
+}
+
+.main .card {
+  width: 370px;
+  height: 250px;
+}
+
+.body {
+  background: url(../../img/Loader\ -\ Desktop.jpg);
+  background-size: cover;
+}
