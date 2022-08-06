@@ -35,13 +35,34 @@
 .post-header .skills {
   font-size: 8vh;
 }
+.post-header .skills .name {
+  display: flex;
+  align-items: center;
+  font-size: 2vh;
+  font-weight: 600;
+}
 .post-header .intro {
   min-width: 356px;
   max-width: 486px;
+  margin-bottom: 2vh;
+}
+.post-header .intro .intro-text {
+  margin-top: 2vh;
 }
 .post-header .tabs-container .tab-switch {
   background-color: inherit;
   border: none;
+}
+.post-header .tabs-container .choosen {
+  border-bottom: 1px solid black;
+}
+
+.line {
+  width: 10%;
+  max-width: 30px;
+  border: 1px solid black;
+  background-color: black;
+  margin-right: 3%;
 }
 
 .main .card {
@@ -49,7 +70,21 @@
   height: 250px;
 }
 
-.body {
-  background: url(../../img/Loader\ -\ Desktop.jpg);
-  background-size: cover;
+.overlay {
+  position: absolute;
+  color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1E1E1E;
+  z-index: 1000;
+}
+
+.hidden {
+  display: none;
+}
+
+.chapters {
+  list-style: none;
 }
